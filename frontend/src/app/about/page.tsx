@@ -144,7 +144,7 @@ export default function AboutPage() {
             >
               <div className="relative h-[540px] w-full rounded-[32px] overflow-hidden shadow-2xl border border-slate-200 group">
                 <img 
-                  src="/images/legacy/about-security-officer.jpg" 
+                  src="/images/about/about-security.png" 
                   alt="Family Anchor Facilities Officer" 
                   className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700"
                 />

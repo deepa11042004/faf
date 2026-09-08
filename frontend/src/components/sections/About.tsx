@@ -9,7 +9,7 @@ const aboutSlides = [
   {
     title: "CCTV Surveillance System",
     alt: "Advanced CCTV Surveillance Cameras",
-    image: "/images/about/about-cctv.png",
+    image: "/images/about/about-security.png",
   },
   {
     title: "Access Control System",
