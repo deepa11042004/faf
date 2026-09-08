@@ -5,6 +5,7 @@ import { projectsApi } from "@/services/api/projectsApi";
 import { ProjectItem } from "@/types/admin";
 import { ConfirmModal } from "@/components/admin/ConfirmModal";
 import { getMediaUrl } from "@/lib/axios";
+import { compressMultipleImages } from "@/lib/imageCompressor";
 import {
   Plus,
   Search,
@@ -124,9 +125,10 @@ export default function AdminProjectsPage() {
       formData.append("featured", String(featured));
       formData.append("status", status);
 
-      if (imageFiles) {
-        for (let i = 0; i < imageFiles.length; i++) {
-          formData.append("images", imageFiles[i]);
+      if (imageFiles && imageFiles.length > 0) {
+        const compressed = await compressMultipleImages(Array.from(imageFiles));
+        for (let i = 0; i < compressed.length; i++) {
+          formData.append("images", compressed[i]);
         }
       }
 

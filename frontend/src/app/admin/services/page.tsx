@@ -5,6 +5,7 @@ import { servicesApi } from "@/services/api/servicesApi";
 import { ServiceItem } from "@/types/admin";
 import { ConfirmModal } from "@/components/admin/ConfirmModal";
 import { getMediaUrl } from "@/lib/axios";
+import { compressImage } from "@/lib/imageCompressor";
 import {
   Plus,
   Search,
@@ -111,7 +112,8 @@ export default function AdminServicesPage() {
       formData.append("description", description);
       formData.append("status", status);
       if (bannerFile) {
-        formData.append("bannerImage", bannerFile);
+        const compressedBanner = await compressImage(bannerFile);
+        formData.append("bannerImage", compressedBanner);
       }
       if (removeBannerImage) {
         formData.append("removeBannerImage", "true");

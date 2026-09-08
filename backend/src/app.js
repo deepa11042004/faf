@@ -38,8 +38,8 @@ const limiter = rateLimit({
 app.use("/api/", limiter);
 
 // Request Parsing & Logging
-app.use(express.json({ limit: "10mb" }));
-app.use(express.urlencoded({ extended: true, limit: "10mb" }));
+app.use(express.json({ limit: "50mb" }));
+app.use(express.urlencoded({ extended: true, limit: "50mb" }));
 app.use(morgan("dev"));
 
 // Static Folders for Uploads, Images & Public Assets

@@ -6,6 +6,7 @@ import { servicesApi } from "@/services/api/servicesApi";
 import { DeviceItem } from "@/types/admin";
 import { ConfirmModal } from "@/components/admin/ConfirmModal";
 import { getMediaUrl } from "@/lib/axios";
+import { compressMultipleImages } from "@/lib/imageCompressor";
 import {
   Plus,
   Search,
@@ -546,7 +547,8 @@ export default function AdminServiceCategoriesPage() {
       formData.append("status", status);
       formData.append("existingImages", JSON.stringify(existingImages));
 
-      imageFiles.forEach((file) => {
+      const compressedImages = await compressMultipleImages(imageFiles);
+      compressedImages.forEach((file) => {
         formData.append("imageFiles", file);
       });
 

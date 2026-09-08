@@ -5,6 +5,7 @@ import { galleryApi } from "@/services/api/galleryApi";
 import { GalleryItem } from "@/types/admin";
 import { ConfirmModal } from "@/components/admin/ConfirmModal";
 import { getMediaUrl } from "@/lib/axios";
+import { compressImage } from "@/lib/imageCompressor";
 import { Plus, Trash2, Image as ImageIcon, X } from "lucide-react";
 
 export default function AdminGalleryPage() {
@@ -54,7 +55,8 @@ export default function AdminGalleryPage() {
       formData.append("title", title);
       formData.append("category", galCategory);
       formData.append("altText", altText);
-      formData.append("image", imageFile);
+      const compressedImage = await compressImage(imageFile);
+      formData.append("image", compressedImage);
 
       await galleryApi.createGalleryItem(formData);
       setIsModalOpen(false);

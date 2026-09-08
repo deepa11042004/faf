@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { teamApi, TeamMember } from "@/services/api/teamApi";
 import { ConfirmModal } from "@/components/admin/ConfirmModal";
 import { getMediaUrl } from "@/lib/axios";
+import { compressImage } from "@/lib/imageCompressor";
 import {
   Plus,
   Search,
@@ -93,7 +94,8 @@ export default function AdminTeamPage() {
       formData.append("displayOrder", displayOrder.toString());
       formData.append("category", category);
       if (photoFile) {
-        formData.append("photo", photoFile);
+        const compressedPhoto = await compressImage(photoFile);
+        formData.append("photo", compressedPhoto);
       }
       if (removePhoto) {
         formData.append("removePhoto", "true");
