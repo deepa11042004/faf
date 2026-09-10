@@ -72,13 +72,15 @@ export function Footer() {
           {/* Brand & About */}
           <div className="flex flex-col gap-6">
             <Link href="/" className="flex items-center gap-3 group w-fit">
-              <Image
-                src="/logo.png"
-                alt="Family Anchor Facilities"
-                width={140}
-                height={140}
-                className="h-20 md:h-24 lg:h-28 w-auto object-contain transition-transform group-hover:scale-105"
-              />
+              <div className="bg-white p-2 md:p-2.5 rounded-2xl shadow-md flex items-center justify-center shrink-0">
+                <Image
+                  src="/logo.png"
+                  alt="Family Anchor Facilities"
+                  width={140}
+                  height={140}
+                  className="h-14 md:h-18 lg:h-20 w-auto object-contain transition-transform group-hover:scale-105"
+                />
+              </div>
               <div className="flex flex-col">
                 <span className="font-bebas text-2xl md:text-3xl tracking-widest leading-none text-white drop-shadow-sm">
                   FAMILY ANCHOR

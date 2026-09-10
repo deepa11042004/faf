@@ -98,14 +98,16 @@ export function Navbar() {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3 group">
-            <Image
-              src="/logo.png"
-              alt="Family Anchor Facilities"
-              width={180}
-              height={90}
-              className="h-14 md:h-16 lg:h-20 w-auto object-contain transition-transform group-hover:scale-105"
-              priority
-            />
+            <div className="bg-white p-1 rounded-2xl shadow-md border border-white/20 flex items-center justify-center shrink-0 overflow-hidden">
+              <Image
+                src="/logo.png"
+                alt="Family Anchor Facilities"
+                width={180}
+                height={90}
+                className="h-12 md:h-14 lg:h-16 w-auto object-contain transition-transform group-hover:scale-105"
+                priority
+              />
+            </div>
             <div className="flex flex-col mt-1">
               <span className="font-bebas text-2xl sm:text-3xl md:text-4xl tracking-widest leading-none text-white drop-shadow-sm">
                 FAMILY ANCHOR

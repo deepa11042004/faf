@@ -52,11 +52,13 @@ export default function LoginPage() {
         <div className="bg-slate-900/90 border border-slate-800 backdrop-blur-2xl rounded-3xl p-8 shadow-2xl">
           <div className="text-center mb-8">
             <div className="flex justify-center mb-4">
-              <img
-                src="/logo.png"
-                alt="FAF Logo"
-                className="h-16 w-auto object-contain drop-shadow-lg"
-              />
+              <div className="bg-white p-2.5 rounded-2xl shadow-lg flex items-center justify-center">
+                <img
+                  src="/logo.png"
+                  alt="FAF Logo"
+                  className="h-12 w-auto object-contain"
+                />
+              </div>
             </div>
             <h1 className="text-3xl font-bebas tracking-wide text-white">
               Family Anchor Facilities
