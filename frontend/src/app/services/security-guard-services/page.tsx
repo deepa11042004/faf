@@ -624,7 +624,7 @@ export default function SecurityGuardsServicePage() {
               className="relative h-[480px] rounded-[32px] overflow-hidden border-4 border-sky-300 shadow-2xl group"
             >
               <img 
-                src="/images/legacy/about-security-officer.jpg" 
+                src="/images/about/about-security.png" 
                 alt="Uniformed Security Guard Officer" 
                 className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700"
               />
