@@ -9,7 +9,7 @@ const aboutSlides = [
   {
     title: "CCTV Surveillance System",
     alt: "Advanced CCTV Surveillance Cameras",
-    image: "/images/about/about-security.png",
+    image: "/images/about/about-cctv.png",
   },
   {
     title: "Access Control System",
@@ -30,6 +30,11 @@ const aboutSlides = [
     title: "Security Guard Services",
     alt: "Professional Security Guard Officer",
     image: "/images/about/about-security.png",
+  },
+  {
+    title: "Housekeeping Services",
+    alt: "Professional Housekeeping Services",
+    image: "/images/services/housekeeping-banner.jpg",
   },
 ];
 
