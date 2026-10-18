@@ -93,7 +93,7 @@ export default function AboutPage() {
               <ChevronRight className="w-4 h-4 text-slate-500" />
               <span>About Us</span>
             </div>
-            <h1 className="text-5xl md:text-7xl font-bebas tracking-wide text-white mb-6">
+            <h1 className="text-4xl sm:text-5xl md:text-7xl font-bebas tracking-wide text-white mb-6">
               Protecting People, Property & <span className="text-[#38BDF8]">Peace of Mind</span>
             </h1>
             <p className="text-slate-300 text-lg md:text-xl leading-relaxed font-inter max-w-3xl mx-auto">
@@ -142,7 +142,7 @@ export default function AboutPage() {
               transition={{ duration: 0.7 }}
               className="relative"
             >
-              <div className="relative h-[540px] w-full rounded-[32px] overflow-hidden shadow-2xl border border-slate-200 group">
+              <div className="relative h-[380px] sm:h-[460px] md:h-[540px] w-full rounded-[32px] overflow-hidden shadow-2xl border border-slate-200 group">
                 <img 
                   src="/images/about/about-security.png" 
                   alt="Family Anchor Facilities Officer" 
@@ -248,7 +248,7 @@ export default function AboutPage() {
             <span className="text-[#0284C7] font-bebas text-xl tracking-widest uppercase mb-2 block">
               Guiding Principles
             </span>
-            <h2 className="text-4xl md:text-6xl font-bebas tracking-wide text-slate-900 leading-tight">
+            <h2 className="text-3xl sm:text-4xl md:text-6xl font-bebas tracking-wide text-slate-900 leading-tight">
               Our Core Values
             </h2>
           </div>
@@ -282,7 +282,7 @@ export default function AboutPage() {
             <span className="text-[#38BDF8] font-bebas text-xl tracking-widest uppercase mb-2 block">
               Competitive Edge
             </span>
-            <h2 className="text-4xl md:text-6xl font-bebas tracking-wide text-white leading-tight">
+            <h2 className="text-3xl sm:text-4xl md:text-6xl font-bebas tracking-wide text-white leading-tight">
               Why Choose Family Anchor Facilities Pvt. Ltd.?
             </h2>
           </div>

@@ -569,7 +569,7 @@ export default function AccessControlServicePage() {
               <ChevronRight className="w-4 h-4 text-slate-500" />
               <span>Access Control System</span>
             </div>
-            <h1 className="text-5xl md:text-7xl font-bebas tracking-wide text-white mb-6">
+            <h1 className="text-4xl sm:text-5xl md:text-7xl font-bebas tracking-wide text-white mb-6">
               Smart Access Management for <span className="text-[#38BDF8]">Secure Premises</span>
             </h1>
             <p className="text-slate-300 text-lg md:text-xl leading-relaxed font-inter max-w-3xl mx-auto">
@@ -610,7 +610,7 @@ export default function AccessControlServicePage() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.7 }}
-              className="relative h-[480px] rounded-[32px] overflow-hidden border-4 border-sky-300 shadow-2xl group"
+              className="relative h-[320px] sm:h-[400px] md:h-[480px] rounded-[32px] overflow-hidden border-4 border-sky-300 shadow-2xl group"
             >
               <img 
                 src="/images/legacy/about-access-control.png" 
@@ -640,7 +640,7 @@ export default function AccessControlServicePage() {
             <span className="text-[#0284C7] font-bebas text-xl tracking-widest uppercase mb-2 block">
               Security Excellence
             </span>
-            <h2 className="text-4xl md:text-6xl font-bebas tracking-wide text-slate-900 leading-tight">
+            <h2 className="text-3xl sm:text-4xl md:text-6xl font-bebas tracking-wide text-slate-900 leading-tight">
               Why Choose Our Access Control Systems?
             </h2>
           </div>
@@ -670,7 +670,7 @@ export default function AccessControlServicePage() {
             <span className="text-[#38BDF8] font-bebas text-xl tracking-widest uppercase mb-2 block drop-shadow">
               Equipment Portfolio
             </span>
-            <h2 className="text-4xl md:text-6xl font-bebas tracking-wide text-white leading-tight">
+            <h2 className="text-3xl sm:text-4xl md:text-6xl font-bebas tracking-wide text-white leading-tight">
               Access Control Hardware & Locks
             </h2>
             <p className="text-blue-100 text-lg font-inter mt-3">
@@ -800,7 +800,7 @@ export default function AccessControlServicePage() {
             <span className="text-[#38BDF8] font-bebas text-xl tracking-widest uppercase mb-2 block drop-shadow">
               Sector Coverage
             </span>
-            <h2 className="text-4xl md:text-6xl font-bebas tracking-wide text-white leading-tight mb-4">
+            <h2 className="text-3xl sm:text-4xl md:text-6xl font-bebas tracking-wide text-white leading-tight mb-4">
               Access Control Solutions by Industry
             </h2>
             <p className="text-blue-100 font-inter text-base">
@@ -899,7 +899,7 @@ export default function AccessControlServicePage() {
             <span className="text-[#0284C7] font-bebas text-xl tracking-widest uppercase mb-2 block">
               Turnkey Execution
             </span>
-            <h2 className="text-4xl md:text-6xl font-bebas tracking-wide text-slate-900 leading-tight">
+            <h2 className="text-3xl sm:text-4xl md:text-6xl font-bebas tracking-wide text-slate-900 leading-tight">
               Our Access Control Services
             </h2>
             <p className="text-slate-600 text-lg font-inter mt-3">
@@ -937,7 +937,7 @@ export default function AccessControlServicePage() {
             <span className="text-[#0284C7] font-bebas text-xl tracking-widest uppercase mb-2 block">
               Got Questions?
             </span>
-            <h2 className="text-4xl md:text-6xl font-bebas tracking-wide text-slate-900 leading-tight">
+            <h2 className="text-3xl sm:text-4xl md:text-6xl font-bebas tracking-wide text-slate-900 leading-tight">
               Frequently Asked Questions
             </h2>
           </div>
@@ -985,7 +985,7 @@ export default function AccessControlServicePage() {
           <span className="text-[#0284C7] font-bebas text-xl tracking-widest uppercase mb-2 block">
             Smart Door Security
           </span>
-          <h2 className="text-4xl md:text-6xl font-bebas tracking-wide text-slate-900 mb-6">
+          <h2 className="text-3xl sm:text-4xl md:text-6xl font-bebas tracking-wide text-slate-900 mb-6">
             Upgrade Your Facility Access Control Today
           </h2>
           <p className="text-slate-600 text-lg leading-relaxed font-inter mb-8">

@@ -137,7 +137,7 @@ export default function ContactPage() {
               <ChevronRight className="w-4 h-4 text-slate-500" />
               <span>Contact Us</span>
             </div>
-            <h1 className="text-5xl md:text-7xl font-bebas tracking-wide text-white mb-6">
+            <h1 className="text-4xl sm:text-5xl md:text-7xl font-bebas tracking-wide text-white mb-6">
               Let's Connect and <span className="text-[#38BDF8]">Secure What Matters Most</span>
             </h1>
             <p className="text-slate-300 text-lg md:text-xl leading-relaxed font-inter max-w-3xl mx-auto">
@@ -461,7 +461,7 @@ export default function ContactPage() {
             <span className="text-[#0284C7] font-bebas text-xl tracking-widest uppercase mb-2 block">
               Office Location
             </span>
-            <h2 className="text-4xl md:text-6xl font-bebas tracking-wide text-slate-900 leading-tight">
+            <h2 className="text-3xl sm:text-4xl md:text-6xl font-bebas tracking-wide text-slate-900 leading-tight">
               Find Us on Google Maps
             </h2>
             <p className="text-slate-600 text-lg font-inter mt-3">
@@ -472,7 +472,7 @@ export default function ContactPage() {
           <div className="grid lg:grid-cols-12 gap-10 items-center">
             
             {/* Embed Map Frame */}
-            <div className="lg:col-span-8 h-[420px] rounded-[32px] overflow-hidden border-4 border-sky-300 shadow-2xl relative">
+            <div className="lg:col-span-8 h-[320px] md:h-[420px] rounded-[32px] overflow-hidden border-4 border-sky-300 shadow-2xl relative">
               <iframe 
                 title="Family Anchor Facilities Google Map Office Location"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3506.2586428043096!2d77.2847185740884!3d28.501865090004955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce6d2c5bd20a7%3A0xb409b585583d1769!2sLight%20N%20Light%20Delhi!5e0!3m2!1sen!2sin!4v1786690272512!5m2!1sen!2sin"
@@ -510,7 +510,7 @@ export default function ContactPage() {
             <span className="text-[#38BDF8] font-bebas text-xl tracking-widest uppercase mb-2 block">
               Consultation Advantage
             </span>
-            <h2 className="text-4xl md:text-6xl font-bebas tracking-wide text-white leading-tight">
+            <h2 className="text-3xl sm:text-4xl md:text-6xl font-bebas tracking-wide text-white leading-tight">
               Why Contact Us?
             </h2>
             <p className="text-slate-300 text-lg font-inter mt-3">
@@ -542,7 +542,7 @@ export default function ContactPage() {
           <span className="text-[#0284C7] font-bebas text-xl tracking-widest uppercase mb-2 block">
             Immediate Assistance
           </span>
-          <h2 className="text-4xl md:text-6xl font-bebas tracking-wide text-slate-900 mb-6">
+          <h2 className="text-3xl sm:text-4xl md:text-6xl font-bebas tracking-wide text-slate-900 mb-6">
             Need Immediate Assistance?
           </h2>
           <p className="text-slate-600 text-lg leading-relaxed font-inter mb-8">

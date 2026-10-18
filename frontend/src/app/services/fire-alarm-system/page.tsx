@@ -530,7 +530,7 @@ export default function FireAlarmSystemPage() {
               <ChevronRight className="w-4 h-4 text-slate-500" />
               <span>Fire Alarm & Protection System</span>
             </div>
-            <h1 className="text-5xl md:text-7xl font-bebas tracking-wide text-white mb-6">
+            <h1 className="text-4xl sm:text-5xl md:text-7xl font-bebas tracking-wide text-white mb-6">
               Intelligent Fire Alarm & <span className="text-[#38BDF8]">Fire Protection Systems</span>
             </h1>
             <p className="text-slate-300 text-lg md:text-xl leading-relaxed font-inter max-w-3xl mx-auto">
@@ -555,7 +555,7 @@ export default function FireAlarmSystemPage() {
               <span className="text-[#0284C7] font-bebas text-xl tracking-widest uppercase block">
                 Fire Safety & Early Warning
               </span>
-              <h2 className="text-4xl md:text-6xl font-bebas tracking-wide text-slate-900 leading-tight">
+              <h2 className="text-3xl sm:text-4xl md:text-6xl font-bebas tracking-wide text-slate-900 leading-tight">
                 Complete Fire Protection Infrastructure
               </h2>
               <p className="text-slate-600 text-lg leading-relaxed font-inter">
@@ -571,7 +571,7 @@ export default function FireAlarmSystemPage() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.7 }}
-              className="relative h-[480px] rounded-[32px] overflow-hidden border-4 border-sky-300 shadow-2xl group"
+              className="relative h-[320px] sm:h-[400px] md:h-[480px] rounded-[32px] overflow-hidden border-4 border-sky-300 shadow-2xl group"
             >
               <img 
                 src="/images/legacy/about-fire-alarm.jpg" 
@@ -601,7 +601,7 @@ export default function FireAlarmSystemPage() {
             <span className="text-[#0284C7] font-bebas text-xl tracking-widest uppercase mb-2 block">
               Safety Excellence
             </span>
-            <h2 className="text-4xl md:text-6xl font-bebas tracking-wide text-slate-900 leading-tight">
+            <h2 className="text-3xl sm:text-4xl md:text-6xl font-bebas tracking-wide text-slate-900 leading-tight">
               Why Choose Our Fire Safety Systems?
             </h2>
           </div>
@@ -631,7 +631,7 @@ export default function FireAlarmSystemPage() {
             <span className="text-[#38BDF8] font-bebas text-xl tracking-widest uppercase mb-2 block drop-shadow">
               Equipment Portfolio
             </span>
-            <h2 className="text-4xl md:text-6xl font-bebas tracking-wide text-white leading-tight">
+            <h2 className="text-3xl sm:text-4xl md:text-6xl font-bebas tracking-wide text-white leading-tight">
               Fire Alarm & Suppression Systems
             </h2>
             <p className="text-blue-100 text-lg font-inter mt-3">
@@ -770,7 +770,7 @@ export default function FireAlarmSystemPage() {
             <span className="text-[#38BDF8] font-bebas text-xl tracking-widest uppercase mb-2 block drop-shadow">
               Sector Coverage
             </span>
-            <h2 className="text-4xl md:text-6xl font-bebas tracking-wide text-white leading-tight mb-4">
+            <h2 className="text-3xl sm:text-4xl md:text-6xl font-bebas tracking-wide text-white leading-tight mb-4">
               Fire Safety Solutions by Industry
             </h2>
             <p className="text-blue-100 font-inter text-base">
@@ -869,7 +869,7 @@ export default function FireAlarmSystemPage() {
             <span className="text-[#0284C7] font-bebas text-xl tracking-widest uppercase mb-2 block">
               Turnkey Execution
             </span>
-            <h2 className="text-4xl md:text-6xl font-bebas tracking-wide text-slate-900 leading-tight">
+            <h2 className="text-3xl sm:text-4xl md:text-6xl font-bebas tracking-wide text-slate-900 leading-tight">
               Our Core Fire Safety Services
             </h2>
             <p className="text-slate-600 text-lg font-inter mt-3">
@@ -907,7 +907,7 @@ export default function FireAlarmSystemPage() {
             <span className="text-[#0284C7] font-bebas text-xl tracking-widest uppercase mb-2 block">
               Got Questions?
             </span>
-            <h2 className="text-4xl md:text-6xl font-bebas tracking-wide text-slate-900 leading-tight">
+            <h2 className="text-3xl sm:text-4xl md:text-6xl font-bebas tracking-wide text-slate-900 leading-tight">
               Frequently Asked Questions
             </h2>
           </div>
@@ -955,7 +955,7 @@ export default function FireAlarmSystemPage() {
           <span className="text-[#0284C7] font-bebas text-xl tracking-widest uppercase mb-2 block">
             Fire Safety Compliance
           </span>
-          <h2 className="text-4xl md:text-6xl font-bebas tracking-wide text-slate-900 mb-6">
+          <h2 className="text-3xl sm:text-4xl md:text-6xl font-bebas tracking-wide text-slate-900 mb-6">
             Ensure Complete Fire Safety Compliance For Your Building
           </h2>
           <p className="text-slate-600 text-lg leading-relaxed font-inter mb-8">

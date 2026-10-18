@@ -252,7 +252,7 @@ export default function DynamicServicePage() {
         <Navbar />
         <div className="flex-1 flex flex-col items-center justify-center gap-6 py-32 px-4">
           <Shield className="w-20 h-20 text-[#0284C7] opacity-50" />
-          <h1 className="text-4xl md:text-6xl font-bebas tracking-wide text-white text-center">
+          <h1 className="text-3xl sm:text-4xl md:text-6xl font-bebas tracking-wide text-white text-center">
             Service Not Found
           </h1>
           <p className="text-slate-400 font-inter text-lg text-center max-w-md">
@@ -354,7 +354,7 @@ export default function DynamicServicePage() {
               {service.title}
             </span>
             
-            <h1 className="text-5xl md:text-7xl font-bebas tracking-wide text-white mb-6 leading-tight">
+            <h1 className="text-4xl sm:text-5xl md:text-7xl font-bebas tracking-wide text-white mb-6 leading-tight">
               {isHousekeeping ? "Professional Housekeeping & Facility Management Services" : service.title}
             </h1>
             <p className="text-slate-300 text-lg md:text-xl leading-relaxed font-inter max-w-3xl mx-auto font-medium">
@@ -439,7 +439,7 @@ export default function DynamicServicePage() {
               <span className="text-[#38BDF8] font-bebas text-xl tracking-widest uppercase mb-2 block drop-shadow">
                 Our Offerings
               </span>
-              <h2 className="text-4xl md:text-6xl font-bebas tracking-wide text-white leading-tight">
+              <h2 className="text-3xl sm:text-4xl md:text-6xl font-bebas tracking-wide text-white leading-tight">
                 {service.title} Services
               </h2>
               <p className="text-blue-100/80 font-inter text-lg mt-4">
@@ -573,7 +573,7 @@ export default function DynamicServicePage() {
             <span className="text-[#38BDF8] font-bebas text-xl tracking-widest uppercase mb-2 block">
               Step-By-Step Workflow
             </span>
-            <h2 className="text-4xl md:text-6xl font-bebas tracking-wide text-white">
+            <h2 className="text-3xl sm:text-4xl md:text-6xl font-bebas tracking-wide text-white">
               Our Service Process
             </h2>
             <p className="text-slate-400 font-inter text-lg mt-3">
@@ -700,7 +700,7 @@ export default function DynamicServicePage() {
           <span className="text-[#0284C7] font-bebas text-xl tracking-widest uppercase mb-2 block font-bold">
             Keep Your Facility Clean, Safe & Efficient
           </span>
-          <h2 className="text-4xl md:text-6xl font-bebas tracking-wide text-slate-900 mb-6">
+          <h2 className="text-3xl sm:text-4xl md:text-6xl font-bebas tracking-wide text-slate-900 mb-6">
             Trusted Partner For Manpower & Maintenance Solutions
           </h2>
           <p className="text-slate-600 text-lg leading-relaxed font-inter mb-8 font-medium">

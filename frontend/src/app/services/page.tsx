@@ -92,7 +92,7 @@ export default function ServicesPage() {
               <ChevronRight className="w-4 h-4 text-slate-500" />
               <span>Services</span>
             </div>
-            <h1 className="text-5xl md:text-7xl font-bebas tracking-wide text-white mb-6">
+            <h1 className="text-4xl sm:text-5xl md:text-7xl font-bebas tracking-wide text-white mb-6">
               Comprehensive Security Solutions for <span className="text-[#38BDF8]">Every Environment</span>
             </h1>
             <p className="text-slate-300 text-lg md:text-xl leading-relaxed font-inter max-w-3xl mx-auto">
@@ -127,7 +127,7 @@ export default function ServicesPage() {
             <span className="text-[#38BDF8] font-bebas text-xl tracking-widest uppercase mb-2 block drop-shadow">
               Our Services
             </span>
-            <h2 className="text-4xl md:text-6xl font-bebas tracking-wide text-white leading-tight">
+            <h2 className="text-3xl sm:text-4xl md:text-6xl font-bebas tracking-wide text-white leading-tight">
               Explore Our Core Offerings
             </h2>
           </div>
@@ -220,7 +220,7 @@ export default function ServicesPage() {
             <span className="text-[#0284C7] font-bebas text-xl tracking-widest uppercase mb-2 block">
               Service Advantage
             </span>
-            <h2 className="text-4xl md:text-6xl font-bebas tracking-wide text-slate-900 leading-tight">
+            <h2 className="text-3xl sm:text-4xl md:text-6xl font-bebas tracking-wide text-slate-900 leading-tight">
               Why Choose Our Services?
             </h2>
           </div>
@@ -258,7 +258,7 @@ export default function ServicesPage() {
           <span className="text-[#0284C7] font-bebas text-xl tracking-widest uppercase mb-2 block">
             Take Action Today
           </span>
-          <h2 className="text-4xl md:text-6xl font-bebas tracking-wide text-slate-900 mb-6">
+          <h2 className="text-3xl sm:text-4xl md:text-6xl font-bebas tracking-wide text-slate-900 mb-6">
             Secure Your Business with Confidence
           </h2>
           <p className="text-slate-600 text-lg leading-relaxed font-inter mb-8">

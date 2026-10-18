@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { ArrowRight, Cctv, Flame, Fingerprint, Mic, Shield } from "lucide-react";
+import { ArrowRight, Cctv, Flame, Fingerprint, Mic, Shield, Sparkles } from "lucide-react";
 import { servicesApi } from "@/services/api/servicesApi";
 import { getMediaUrl } from "@/lib/axios";
 

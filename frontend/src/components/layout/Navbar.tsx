@@ -97,31 +97,31 @@ export function Navbar() {
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-3 group">
+          <Link href="/" className="flex items-center gap-2 sm:gap-3 group min-w-0 shrink-0">
             <div className="bg-white p-1 rounded-2xl shadow-md border border-white/20 flex items-center justify-center shrink-0 overflow-hidden">
               <Image
                 src="/logo.png"
                 alt="Family Anchor Facilities"
                 width={180}
                 height={90}
-                className="h-12 md:h-14 lg:h-16 w-auto object-contain transition-transform group-hover:scale-105"
+                className="h-10 sm:h-12 md:h-14 lg:h-16 w-auto object-contain transition-transform group-hover:scale-105"
                 priority
               />
             </div>
             <div className="flex flex-col mt-1">
-              <span className="font-bebas text-2xl sm:text-3xl md:text-4xl tracking-widest leading-none text-white drop-shadow-sm">
+              <span className="font-bebas text-xl sm:text-3xl md:text-4xl tracking-widest whitespace-nowrap leading-none text-white drop-shadow-sm">
                 FAMILY ANCHOR
               </span>
-              <span className="font-bebas text-sm sm:text-base md:text-xl tracking-[0.15em] leading-none mt-0.5 text-[#38BDF8] drop-shadow-sm">
+              <span className="font-bebas text-xs sm:text-base md:text-xl tracking-[0.15em] leading-none mt-0.5 text-[#38BDF8] drop-shadow-sm">
                 FACILITIES
               </span>
             </div>
           </Link>
 
           {/* Desktop Navigation */}
-          <nav className="hidden lg:flex items-center">
+          <nav className="hidden xl:flex items-center min-w-0">
             <ul className={cn(
-              "flex items-center gap-6 px-7 py-2 rounded-full border transition-all duration-500 shadow-md backdrop-blur-md relative",
+              "flex items-center gap-4 2xl:gap-6 px-5 2xl:px-7 py-2 rounded-full whitespace-nowrap border transition-all duration-500 shadow-md backdrop-blur-md relative",
               isScrolled 
                 ? "border-slate-700/70 bg-slate-800/80 text-white" 
                 : "border-slate-300/80 bg-white/90 text-slate-900"
@@ -139,7 +139,7 @@ export function Navbar() {
                         <Link
                           href={link.href}
                           className={cn(
-                            "font-bebas text-lg tracking-wider uppercase transition-colors relative after:absolute after:-bottom-1 after:left-0 after:w-0 after:h-0.5 hover:after:w-full after:transition-all font-medium flex items-center gap-1",
+                            "font-bebas text-base 2xl:text-lg tracking-wider uppercase transition-colors relative after:absolute after:-bottom-1 after:left-0 after:w-0 after:h-0.5 hover:after:w-full after:transition-all font-medium flex items-center gap-1",
                             isScrolled ? "text-slate-100 hover:text-[#38BDF8] after:bg-[#38BDF8]" : "text-slate-900 hover:text-[#0284C7] after:bg-[#0284C7]"
                           )}
                         >
@@ -195,7 +195,7 @@ export function Navbar() {
                     <Link
                       href={link.href}
                       className={cn(
-                        "font-bebas text-lg tracking-wider uppercase transition-colors relative after:absolute after:-bottom-1 after:left-0 after:w-0 after:h-0.5 hover:after:w-full after:transition-all font-medium",
+                        "font-bebas text-base 2xl:text-lg tracking-wider uppercase transition-colors relative after:absolute after:-bottom-1 after:left-0 after:w-0 after:h-0.5 hover:after:w-full after:transition-all font-medium",
                         isScrolled ? "text-slate-100 hover:text-[#38BDF8] after:bg-[#38BDF8]" : "text-slate-900 hover:text-[#0284C7] after:bg-[#0284C7]"
                       )}
                     >
@@ -216,7 +216,7 @@ export function Navbar() {
             const cleanPhone = rawPhone.replace(/[^\d+]/g, "");
 
             return (
-              <div className="hidden lg:flex items-center gap-4">
+              <div className="hidden xl:flex items-center gap-3 2xl:gap-4 shrink-0">
                 <a
                   href={`tel:${cleanPhone}`}
                   className="w-10 h-10 rounded-full bg-[#0284C7] hover:bg-[#0369a1] text-white flex items-center justify-center shadow-lg hover:scale-110 transition-all border border-white/40 group"
@@ -245,7 +245,7 @@ export function Navbar() {
 
           {/* Mobile Menu Toggle */}
           <button
-            className="lg:hidden p-2 text-white hover:text-[#38BDF8] transition-colors"
+            className="xl:hidden p-2 text-white hover:text-[#38BDF8] transition-colors"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           >
             {isMobileMenuOpen ? <X /> : <Menu />}
@@ -260,7 +260,7 @@ export function Navbar() {
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
-            className="absolute top-full left-0 right-0 bg-slate-900/95 backdrop-blur-xl border-t border-slate-800 shadow-2xl p-6 lg:hidden max-h-[85vh] overflow-y-auto"
+            className="absolute top-full left-0 right-0 bg-slate-900/95 backdrop-blur-xl border-t border-slate-800 shadow-2xl p-6 xl:hidden max-h-[85vh] overflow-y-auto"
           >
             <ul className="flex flex-col gap-3">
               {NAV_LINKS.map((link) => {

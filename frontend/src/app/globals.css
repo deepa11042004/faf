@@ -72,8 +72,14 @@
   * {
     @apply border-border outline-ring/50;
   }
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
   body {
-    @apply bg-[#F8FAFC] text-[#0F172A];
+    @apply bg-[#F8FAFC] text-[#0F172A] overflow-x-hidden;
+  }
+  img, video, svg {
+    max-width: 100%;
   }
   h1, h2, h3, button, .font-bebas, .bebas-neue-regular, .font-poppins {
     font-family: 'Bebas Neue', 'Poppins', sans-serif !important;

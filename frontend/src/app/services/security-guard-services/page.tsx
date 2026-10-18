@@ -580,7 +580,7 @@ export default function SecurityGuardsServicePage() {
               <ChevronRight className="w-4 h-4 text-slate-500" />
               <span>Security Guard Services</span>
             </div>
-            <h1 className="text-5xl md:text-7xl font-bebas tracking-wide text-white mb-6">
+            <h1 className="text-4xl sm:text-5xl md:text-7xl font-bebas tracking-wide text-white mb-6">
               Professional Security Personnel for <span className="text-[#38BDF8]">Complete Protection</span>
             </h1>
             <p className="text-slate-300 text-lg md:text-xl leading-relaxed font-inter max-w-3xl mx-auto">
@@ -621,7 +621,7 @@ export default function SecurityGuardsServicePage() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.7 }}
-              className="relative h-[480px] rounded-[32px] overflow-hidden border-4 border-sky-300 shadow-2xl group"
+              className="relative h-[320px] sm:h-[400px] md:h-[480px] rounded-[32px] overflow-hidden border-4 border-sky-300 shadow-2xl group"
             >
               <img 
                 src="/images/about/about-security.png" 
@@ -651,7 +651,7 @@ export default function SecurityGuardsServicePage() {
             <span className="text-[#0284C7] font-bebas text-xl tracking-widest uppercase mb-2 block">
               Guarding Excellence
             </span>
-            <h2 className="text-4xl md:text-6xl font-bebas tracking-wide text-slate-900 leading-tight">
+            <h2 className="text-3xl sm:text-4xl md:text-6xl font-bebas tracking-wide text-slate-900 leading-tight">
               Why Choose Our Security Guards?
             </h2>
           </div>
@@ -681,7 +681,7 @@ export default function SecurityGuardsServicePage() {
             <span className="text-[#38BDF8] font-bebas text-xl tracking-widest uppercase mb-2 block drop-shadow">
               Offerings
             </span>
-            <h2 className="text-4xl md:text-6xl font-bebas tracking-wide text-white leading-tight">
+            <h2 className="text-3xl sm:text-4xl md:text-6xl font-bebas tracking-wide text-white leading-tight">
               Our Security Services
             </h2>
             <p className="text-blue-100 text-lg font-inter mt-3">
@@ -812,7 +812,7 @@ export default function SecurityGuardsServicePage() {
             <span className="text-[#38BDF8] font-bebas text-xl tracking-widest uppercase mb-2 block drop-shadow">
               Sector Coverage
             </span>
-            <h2 className="text-4xl md:text-6xl font-bebas tracking-wide text-white leading-tight mb-4">
+            <h2 className="text-3xl sm:text-4xl md:text-6xl font-bebas tracking-wide text-white leading-tight mb-4">
               Security Guard Solutions by Sector
             </h2>
             <p className="text-blue-100 font-inter text-base">
@@ -915,7 +915,7 @@ export default function SecurityGuardsServicePage() {
             <span className="text-[#0284C7] font-bebas text-xl tracking-widest uppercase mb-2 block">
               Turnkey Execution
             </span>
-            <h2 className="text-4xl md:text-6xl font-bebas tracking-wide text-slate-900 leading-tight">
+            <h2 className="text-3xl sm:text-4xl md:text-6xl font-bebas tracking-wide text-slate-900 leading-tight">
               Our Security Deployment Process
             </h2>
             <p className="text-slate-600 text-lg font-inter mt-3">
@@ -953,7 +953,7 @@ export default function SecurityGuardsServicePage() {
             <span className="text-[#0284C7] font-bebas text-xl tracking-widest uppercase mb-2 block">
               Got Questions?
             </span>
-            <h2 className="text-4xl md:text-6xl font-bebas tracking-wide text-slate-900 leading-tight">
+            <h2 className="text-3xl sm:text-4xl md:text-6xl font-bebas tracking-wide text-slate-900 leading-tight">
               Frequently Asked Questions
             </h2>
           </div>
@@ -1001,7 +1001,7 @@ export default function SecurityGuardsServicePage() {
           <span className="text-[#0284C7] font-bebas text-xl tracking-widest uppercase mb-2 block">
             Deploy Guard Forces
           </span>
-          <h2 className="text-4xl md:text-6xl font-bebas tracking-wide text-slate-900 mb-6">
+          <h2 className="text-3xl sm:text-4xl md:text-6xl font-bebas tracking-wide text-slate-900 mb-6">
             Hire Professional Security Guards Today
           </h2>
           <p className="text-slate-600 text-lg leading-relaxed font-inter mb-8">

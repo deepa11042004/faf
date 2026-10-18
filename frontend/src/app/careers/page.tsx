@@ -391,7 +391,7 @@ export default function CareersPage() {
               <ChevronRight className="w-4 h-4 text-slate-500" />
               <span>Careers</span>
             </div>
-            <h1 className="text-5xl md:text-7xl font-bebas tracking-wide text-white mb-6">
+            <h1 className="text-4xl sm:text-5xl md:text-7xl font-bebas tracking-wide text-white mb-6">
               Build a Rewarding Career with <span className="text-[#38BDF8]">Family Anchor Facilities</span>
             </h1>
             <p className="text-slate-300 text-lg md:text-xl leading-relaxed font-inter max-w-3xl mx-auto">
@@ -408,7 +408,7 @@ export default function CareersPage() {
             <span className="text-[#38BDF8] font-bebas text-xl tracking-widest uppercase mb-2 block drop-shadow">
               Employer Value Proposition
             </span>
-            <h2 className="text-4xl md:text-6xl font-bebas tracking-wide text-white leading-tight mb-4">
+            <h2 className="text-3xl sm:text-4xl md:text-6xl font-bebas tracking-wide text-white leading-tight mb-4">
               Why Join Family Anchor Facilities Pvt. Ltd.?
             </h2>
             <p className="text-blue-100/90 text-base md:text-lg font-inter leading-relaxed">
@@ -449,7 +449,7 @@ export default function CareersPage() {
             <span className="text-[#0284C7] font-bebas text-xl tracking-widest uppercase mb-2 block">
               Workforce Welfare
             </span>
-            <h2 className="text-4xl md:text-6xl font-bebas tracking-wide text-slate-900 leading-tight mb-4">
+            <h2 className="text-3xl sm:text-4xl md:text-6xl font-bebas tracking-wide text-slate-900 leading-tight mb-4">
               Employee Benefits & Facilities
             </h2>
             <p className="text-slate-600 text-base md:text-lg font-inter leading-relaxed">
@@ -500,7 +500,7 @@ export default function CareersPage() {
             <span className="text-[#38BDF8] font-bebas text-xl md:text-2xl tracking-widest uppercase mb-2 block drop-shadow font-semibold">
               Join Our Team
             </span>
-            <h2 className="text-4xl md:text-6xl font-bebas tracking-wide text-white leading-tight drop-shadow-md">
+            <h2 className="text-3xl sm:text-4xl md:text-6xl font-bebas tracking-wide text-white leading-tight drop-shadow-md">
               Current Openings
             </h2>
             <p className="text-blue-100 text-base md:text-lg font-inter mt-3 max-w-xl mx-auto">
@@ -577,7 +577,7 @@ export default function CareersPage() {
             <span className="text-[#0284C7] font-bebas text-xl tracking-widest uppercase mb-2 block">
               Online Portal
             </span>
-            <h2 className="text-4xl md:text-6xl font-bebas tracking-wide text-slate-900 leading-tight">
+            <h2 className="text-3xl sm:text-4xl md:text-6xl font-bebas tracking-wide text-slate-900 leading-tight">
               Apply Now
             </h2>
             <p className="text-slate-600 text-lg font-inter mt-3">
@@ -847,7 +847,7 @@ export default function CareersPage() {
             <span className="text-[#38BDF8] font-bebas text-xl tracking-widest uppercase mb-2 block drop-shadow">
               Role Pathways
             </span>
-            <h2 className="text-4xl md:text-6xl font-bebas tracking-wide text-white leading-tight">
+            <h2 className="text-3xl sm:text-4xl md:text-6xl font-bebas tracking-wide text-white leading-tight">
               Career Opportunities
             </h2>
           </div>
@@ -886,7 +886,7 @@ export default function CareersPage() {
             <span className="text-[#0284C7] font-bebas text-xl tracking-widest uppercase mb-2 block">
               Transparent Selection
             </span>
-            <h2 className="text-4xl md:text-6xl font-bebas tracking-wide text-slate-900 leading-tight">
+            <h2 className="text-3xl sm:text-4xl md:text-6xl font-bebas tracking-wide text-slate-900 leading-tight">
               Our Hiring Process
             </h2>
           </div>
@@ -922,7 +922,7 @@ export default function CareersPage() {
           <span className="text-[#0284C7] font-bebas text-xl tracking-widest uppercase mb-2 block">
             Future-Ready Growth
           </span>
-          <h2 className="text-4xl md:text-6xl font-bebas tracking-wide text-slate-900 mb-6">
+          <h2 className="text-3xl sm:text-4xl md:text-6xl font-bebas tracking-wide text-slate-900 mb-6">
             Grow Your Career with Us
           </h2>
           <p className="text-slate-600 text-lg leading-relaxed font-inter mb-8">

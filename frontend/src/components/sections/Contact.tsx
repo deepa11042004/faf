@@ -146,7 +146,7 @@ export function ContactSection() {
               <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col gap-5 relative z-10 font-inter">
                 {errorMsg && <div className="p-3 bg-red-50 text-red-600 rounded-lg text-sm">{errorMsg}</div>}
                 
-                <div className="grid grid-cols-2 gap-5">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
                   <div className="flex flex-col gap-1">
                     <input
                       {...register("name", { required: true })}

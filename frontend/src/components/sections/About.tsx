@@ -74,7 +74,7 @@ export function AboutSection() {
             transition={{ duration: 0.8 }}
             className="relative"
           >
-            <div className="relative h-[650px] lg:h-[720px] w-full rounded-[32px] overflow-hidden shadow-2xl border border-zinc-800 group">
+            <div className="relative h-[420px] sm:h-[540px] md:h-[650px] lg:h-[720px] w-full rounded-[32px] overflow-hidden shadow-2xl border border-zinc-800 group">
               <AnimatePresence mode="wait">
                 <motion.div
                   key={currentSlide}
@@ -155,7 +155,7 @@ export function AboutSection() {
               <span className="text-[#38BDF8] font-bebas text-xl tracking-widest uppercase mb-2 block">
                 About Our Company
               </span>
-              <h2 className="text-4xl md:text-6xl font-bebas tracking-wide text-white leading-tight mb-6">
+              <h2 className="text-3xl sm:text-4xl md:text-6xl font-bebas tracking-wide text-white leading-tight mb-6">
                 Trusted Security Solutions Provider <br />
                 <span className="text-[#38BDF8]">Since Day One</span>
               </h2>
@@ -190,7 +190,7 @@ export function AboutSection() {
               </div>
             </div>
 
-            <ul className="grid grid-cols-2 gap-4 mt-2 mb-4">
+            <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4 mt-2 mb-4">
               {[
                 "Highly Trained Personnel",
                 "Advanced Technology",

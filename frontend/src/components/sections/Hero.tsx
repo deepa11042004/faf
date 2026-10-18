@@ -69,7 +69,7 @@ export function Hero() {
             </span>
           </motion.div>
 
-          <h1 className="text-5xl md:text-7xl font-poppins font-extrabold text-white leading-tight drop-shadow-md">
+          <h1 className="text-4xl sm:text-5xl md:text-7xl font-poppins font-extrabold text-white leading-tight drop-shadow-md">
             Protecting <br />
             What <br />
             <span className="text-[#38BDF8] drop-shadow-md">

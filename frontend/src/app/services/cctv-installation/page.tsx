@@ -515,7 +515,7 @@ export default function CctvInstallationPage() {
               <span>CCTV Installation</span>
             </div>
             
-            <h1 className="text-5xl md:text-7xl font-bebas tracking-wide text-white mb-6">
+            <h1 className="text-4xl sm:text-5xl md:text-7xl font-bebas tracking-wide text-white mb-6">
               Professional <span className="text-[#38BDF8]">CCTV Installation</span> Services
             </h1>
             
@@ -561,7 +561,7 @@ export default function CctvInstallationPage() {
               <span className="text-[#0284C7] font-bebas text-xl tracking-widest uppercase block">
                 24/7 Surveillance & Protection
               </span>
-              <h2 className="text-4xl md:text-6xl font-bebas tracking-wide text-slate-900 leading-tight">
+              <h2 className="text-3xl sm:text-4xl md:text-6xl font-bebas tracking-wide text-slate-900 leading-tight">
                 Complete CCTV Security Infrastructure
               </h2>
               <p className="text-slate-600 text-lg leading-relaxed font-inter">
@@ -577,7 +577,7 @@ export default function CctvInstallationPage() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.7 }}
-              className="relative h-[480px] rounded-[32px] overflow-hidden border-4 border-sky-300 shadow-2xl group"
+              className="relative h-[320px] sm:h-[400px] md:h-[480px] rounded-[32px] overflow-hidden border-4 border-sky-300 shadow-2xl group"
             >
               <img 
                 src="/images/legacy/about-cctv.png" 
@@ -607,7 +607,7 @@ export default function CctvInstallationPage() {
             <span className="text-[#0284C7] font-bebas text-xl tracking-widest uppercase mb-2 block">
               Smart Surveillance
             </span>
-            <h2 className="text-4xl md:text-6xl font-bebas tracking-wide text-slate-900 leading-tight">
+            <h2 className="text-3xl sm:text-4xl md:text-6xl font-bebas tracking-wide text-slate-900 leading-tight">
               Why Choose Our CCTV Solutions?
             </h2>
             <p className="text-slate-600 text-lg font-inter mt-3">
@@ -640,7 +640,7 @@ export default function CctvInstallationPage() {
             <span className="text-[#38BDF8] font-bebas text-xl tracking-widest uppercase mb-2 block drop-shadow">
               Hardware Portfolio
             </span>
-            <h2 className="text-4xl md:text-6xl font-bebas tracking-wide text-white leading-tight">
+            <h2 className="text-3xl sm:text-4xl md:text-6xl font-bebas tracking-wide text-white leading-tight">
               CCTV Camera Categories
             </h2>
             <p className="text-blue-100 text-lg font-inter mt-3">
@@ -768,7 +768,7 @@ export default function CctvInstallationPage() {
             <span className="text-[#38BDF8] font-bebas text-xl tracking-widest uppercase mb-2 block drop-shadow">
               Interactive Sector Showcase
             </span>
-            <h2 className="text-4xl md:text-6xl font-bebas tracking-wide text-white leading-tight mb-4">
+            <h2 className="text-3xl sm:text-4xl md:text-6xl font-bebas tracking-wide text-white leading-tight mb-4">
               CCTV Solutions by Industry
             </h2>
             <p className="text-blue-100 font-inter text-base">
@@ -867,7 +867,7 @@ export default function CctvInstallationPage() {
             <span className="text-[#0284C7] font-bebas text-xl tracking-widest uppercase mb-2 block">
               Step-By-Step Workflow
             </span>
-            <h2 className="text-4xl md:text-6xl font-bebas tracking-wide text-slate-900 leading-tight">
+            <h2 className="text-3xl sm:text-4xl md:text-6xl font-bebas tracking-wide text-slate-900 leading-tight">
               Our CCTV Installation Process
             </h2>
           </div>
@@ -895,7 +895,7 @@ export default function CctvInstallationPage() {
             <span className="text-[#0284C7] font-bebas text-xl tracking-widest uppercase mb-2 block">
               Got Questions?
             </span>
-            <h2 className="text-4xl md:text-6xl font-bebas tracking-wide text-slate-900 leading-tight">
+            <h2 className="text-3xl sm:text-4xl md:text-6xl font-bebas tracking-wide text-slate-900 leading-tight">
               Frequently Asked Questions
             </h2>
           </div>
@@ -940,7 +940,7 @@ export default function CctvInstallationPage() {
           <span className="text-[#0284C7] font-bebas text-xl tracking-widest uppercase mb-2 block">
             High-Converting Security
           </span>
-          <h2 className="text-4xl md:text-6xl font-bebas tracking-wide text-slate-900 mb-6">
+          <h2 className="text-3xl sm:text-4xl md:text-6xl font-bebas tracking-wide text-slate-900 mb-6">
             Secure Your Property with Professional CCTV Installation
           </h2>
           <p className="text-slate-600 text-lg leading-relaxed font-inter mb-8">

@@ -217,7 +217,7 @@ export default function ProjectsPage() {
               Our Projects
             </span>
             
-            <h1 className="text-5xl md:text-7xl font-bebas tracking-wide text-white mb-6">
+            <h1 className="text-4xl sm:text-5xl md:text-7xl font-bebas tracking-wide text-white mb-6">
               Delivering Trusted Security Solutions <span className="text-[#38BDF8]">Across Industries</span>
             </h1>
             
@@ -283,7 +283,7 @@ export default function ProjectsPage() {
             <span className="text-[#38BDF8] font-bebas text-xl tracking-widest uppercase mb-2 block drop-shadow">
               Proven Track Record
             </span>
-            <h2 className="text-4xl md:text-6xl font-bebas tracking-wide text-white leading-tight">
+            <h2 className="text-3xl sm:text-4xl md:text-6xl font-bebas tracking-wide text-white leading-tight">
               Featured Projects
             </h2>
             <p className="text-blue-100 text-lg font-inter mt-3">
@@ -365,7 +365,7 @@ export default function ProjectsPage() {
             <span className="text-[#0284C7] font-bebas text-xl tracking-widest uppercase mb-2 block">
               Diverse Expertise
             </span>
-            <h2 className="text-4xl md:text-6xl font-bebas tracking-wide text-slate-900 leading-tight">
+            <h2 className="text-3xl sm:text-4xl md:text-6xl font-bebas tracking-wide text-slate-900 leading-tight">
               Industries We Have Served
             </h2>
             <p className="text-slate-600 text-lg font-inter mt-3">
@@ -397,7 +397,7 @@ export default function ProjectsPage() {
             <span className="text-[#0284C7] font-bebas text-xl tracking-widest uppercase mb-2 block">
               Standardized Methodology
             </span>
-            <h2 className="text-4xl md:text-6xl font-bebas tracking-wide text-slate-900 leading-tight">
+            <h2 className="text-3xl sm:text-4xl md:text-6xl font-bebas tracking-wide text-slate-900 leading-tight">
               Our Project Execution Process
             </h2>
             <p className="text-slate-600 text-lg font-inter mt-3">
@@ -435,7 +435,7 @@ export default function ProjectsPage() {
             <span className="text-[#0284C7] font-bebas text-xl tracking-widest uppercase mb-2 block">
               Reliable Partner
             </span>
-            <h2 className="text-4xl md:text-6xl font-bebas tracking-wide text-slate-900 leading-tight">
+            <h2 className="text-3xl sm:text-4xl md:text-6xl font-bebas tracking-wide text-slate-900 leading-tight">
               Why Clients Trust Us
             </h2>
           </div>
@@ -465,7 +465,7 @@ export default function ProjectsPage() {
             <span className="text-[#38BDF8] font-bebas text-xl tracking-widest uppercase mb-2 block drop-shadow">
               Site Handover Standards
             </span>
-            <h2 className="text-4xl md:text-6xl font-bebas tracking-wide text-white leading-tight">
+            <h2 className="text-3xl sm:text-4xl md:text-6xl font-bebas tracking-wide text-white leading-tight">
               Project Image Gallery
             </h2>
             <p className="text-blue-100 text-lg font-inter mt-3">
@@ -512,7 +512,7 @@ export default function ProjectsPage() {
             <span className="text-[#38BDF8] font-bebas text-xl tracking-widest uppercase mb-2 block">
               Client Feedback
             </span>
-            <h2 className="text-4xl md:text-6xl font-bebas tracking-wide text-white leading-tight">
+            <h2 className="text-3xl sm:text-4xl md:text-6xl font-bebas tracking-wide text-white leading-tight">
               What Our Clients Say
             </h2>
           </div>
@@ -549,7 +549,7 @@ export default function ProjectsPage() {
           <span className="text-[#0284C7] font-bebas text-xl tracking-widest uppercase mb-2 block">
             Partner With Us
           </span>
-          <h2 className="text-4xl md:text-6xl font-bebas tracking-wide text-slate-900 mb-6">
+          <h2 className="text-3xl sm:text-4xl md:text-6xl font-bebas tracking-wide text-slate-900 mb-6">
             Let's Secure Your Next Project
           </h2>
           <p className="text-slate-600 text-lg leading-relaxed font-inter mb-8">

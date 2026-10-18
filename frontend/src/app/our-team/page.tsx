@@ -222,7 +222,7 @@ export default function OurTeamPage() {
               <ChevronRight className="w-4 h-4 text-slate-500" />
               <span>Our Team</span>
             </div>
-            <h1 className="text-5xl md:text-7xl font-bebas tracking-wide text-white mb-6">
+            <h1 className="text-4xl sm:text-5xl md:text-7xl font-bebas tracking-wide text-white mb-6">
               Our Team & <span className="text-[#38BDF8]">Leadership</span>
             </h1>
             <p className="text-slate-300 text-lg md:text-xl leading-relaxed font-inter max-w-3xl mx-auto">
@@ -277,7 +277,7 @@ export default function OurTeamPage() {
               <p className="text-slate-600 text-base md:text-lg leading-relaxed font-inter mb-6">
                 From frontline security personnel to our management team, every member plays an important role in delivering dependable services to our clients. We continuously focus on professional conduct, proper training, effective supervision, and prompt response to ensure consistent service quality.
               </p>
-              <div className="grid grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {[
                   "Professional Conduct",
                   "Proper Training",
@@ -481,7 +481,7 @@ export default function OurTeamPage() {
             <span className="text-[#38BDF8] font-bebas text-xl tracking-widest uppercase mb-2 block">
               OUR ATTRIBUTES
             </span>
-            <h2 className="text-4xl md:text-6xl font-bebas tracking-wide text-white leading-tight">
+            <h2 className="text-3xl sm:text-4xl md:text-6xl font-bebas tracking-wide text-white leading-tight">
               Why Our Team?
             </h2>
           </div>
@@ -522,7 +522,7 @@ export default function OurTeamPage() {
           <span className="font-bebas text-2xl tracking-widest text-sky-200 block uppercase">
             OUR PEOPLE. YOUR SAFETY.
           </span>
-          <h2 className="text-4xl md:text-6xl font-bebas tracking-wide text-white leading-none">
+          <h2 className="text-3xl sm:text-4xl md:text-6xl font-bebas tracking-wide text-white leading-none">
             A Strong Team Creates A Secure Environment.
           </h2>
           <p className="text-sky-100 text-lg md:text-xl font-inter max-w-2xl mx-auto">

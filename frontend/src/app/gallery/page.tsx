@@ -262,7 +262,7 @@ export default function GalleryPage() {
               <ChevronRight className="w-4 h-4 text-slate-500" />
               <span>Gallery</span>
             </div>
-            <h1 className="text-5xl md:text-7xl font-bebas tracking-wide text-white mb-6">
+            <h1 className="text-4xl sm:text-5xl md:text-7xl font-bebas tracking-wide text-white mb-6">
               Explore Our Work in <span className="text-[#38BDF8]">Security & Facility Management</span>
             </h1>
             <p className="text-slate-300 text-lg md:text-xl leading-relaxed font-inter max-w-3xl mx-auto">
@@ -294,7 +294,7 @@ export default function GalleryPage() {
             <span className="text-[#38BDF8] font-bebas text-xl tracking-widest uppercase mb-2 block drop-shadow">
               Project Showcase
             </span>
-            <h2 className="text-4xl md:text-6xl font-bebas tracking-wide text-white leading-tight">
+            <h2 className="text-3xl sm:text-4xl md:text-6xl font-bebas tracking-wide text-white leading-tight">
               Our Gallery
             </h2>
           </div>
@@ -463,7 +463,7 @@ export default function GalleryPage() {
           <span className="text-[#0284C7] font-bebas text-xl tracking-widest uppercase mb-2 block">
             See Security in Action
           </span>
-          <h2 className="text-4xl md:text-6xl font-bebas tracking-wide text-slate-900 mb-6">
+          <h2 className="text-3xl sm:text-4xl md:text-6xl font-bebas tracking-wide text-slate-900 mb-6">
             Ready to Build Your Custom Security Setup?
           </h2>
           <p className="text-slate-600 text-lg leading-relaxed font-inter mb-8">
